@@ -36,7 +36,7 @@
                         "provision_device": [
                             {
                                 "id_scope": "<id_scope>",
-                                "device_id": "<device_id>",
+                                "device_id": "MichaelTest",
                                 "primary_key": "<primary_key>",
                                 "model_id": "dtmi:vespucci:steval_stwinbx1:pnpl_ai_dpu;1",
                                 "protocol": 1
