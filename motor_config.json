@@ -1,8 +1,8 @@
 {
-    "VibrationClassificationModule": {
+    "edgeVibrationClassification": {
         "commands": {
             "configure_application": {
-                "VespucciModule": {
+                "edgeVespucci": {
                     "commands": {
                         "initialize_configuration": {
                             "oidc_idp": {
@@ -21,17 +21,17 @@
                 }
             },
             "set_data_classification_mode": {
-                "BLEModule": {
+                "edgeBLE": {
                     "commands": {
                         "discover": {
-                            "timespan": 3
+                            "timespan": 5
                         },
                         "connect": {
                             "device_mac": "CA:D6:68:9C:D9:5C"
                         }
                     }
                 },
-                "IdentityTranslationModule": {
+                "edgeIdentityTranslation": {
                     "commands": {
                         "provision_device": [
                             {
@@ -50,7 +50,7 @@
                 "moving_window_size_samples": 3,
                 "moving_window_threshold_samples": 2,
                 "moving_window_threshold_accuracy": 25,
-                "SerialModule": {
+                "edgeSerial": {
                     "commands": {
                         "start": {
                             "timespan": 0
